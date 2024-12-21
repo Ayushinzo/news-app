@@ -1,0 +1,2 @@
+CORS policy of Google does not allow to send the request to third party API from every domain except localhost.
+That's why first download this project on your local PC and run it using the command "npm run dev"

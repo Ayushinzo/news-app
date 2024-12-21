@@ -1,0 +1,37 @@
+.random-article .random-article-image img{
+    width: 16rem;
+    height: 22rem;
+}
+
+.random-article{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.random-article .content a{
+    text-decoration: none;
+    line-height: 1.6;
+    color: black;
+    font-weight: 700;
+}
+
+.random-article .content a:hover{
+    color: blue;
+}
+
+.random-article .content a:visited{
+    color: blue;
+}
+
+.random-article .content a:link{
+    color: black;
+}
+
+.random-article .content p{
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    width: 15rem;
+    border-radius: 6px;
+    padding: .5rem;
+}

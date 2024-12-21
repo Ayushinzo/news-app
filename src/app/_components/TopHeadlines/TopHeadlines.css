@@ -1,0 +1,13 @@
+.headlines{
+    /* border: 1px solid greenyellow; */
+}
+
+.headlines img{
+    width: 100%;
+}
+
+.heading{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: orangered;
+}

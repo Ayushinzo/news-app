@@ -1,0 +1,38 @@
+.search-section form input {
+    padding: .6rem 1rem;
+    outline: none;
+}
+
+.search-section {
+    border: 1px solid black;
+}
+
+.search-section .cancel-circle {
+    display: none;
+}
+
+.search-section form input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search-section form .search-icon {
+    font-size: 3.3rem;
+    cursor: pointer;
+    padding: .4rem;
+    background-color: rgb(131, 131, 131);
+}
+
+.search-section form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn {
+    padding: .6rem 1rem;
+    cursor: pointer;
+}
+
+.search-section.active {
+    display: block;
+}

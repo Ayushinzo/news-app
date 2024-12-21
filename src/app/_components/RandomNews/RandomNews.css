@@ -1,0 +1,10 @@
+.random-news{
+    width: 40%;
+}
+
+.random-news h1{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    margin-bottom: 1.5rem;
+}

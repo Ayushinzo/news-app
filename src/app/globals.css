@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+html {
+    font-size: 65%;
+}
+
+.nav-head {
+    padding: 0 15rem;
+}
+
+.news-section {
+    padding: 1rem 0;
+    display: flex;
+    position: relative;
+    gap: 3rem;
+}
+
+.top-headlines {
+    width: 60%;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: orangered;
+}
+
+.loader {
+    border: 16px solid #f3f3f3 !important;
+    border-top: 16px solid orangered !important;
+    border-radius: 50% !important;
+    width: 120px !important;
+    height: 120px !important;
+    animation: spin 1s linear infinite !important;
+}
+
+.hr{
+    margin-top: 1.5rem !important;
+    background-color: rgb(184, 184, 184) !important;
+    margin-bottom: 1.5rem !important;
+    height: 1px !important;
+}
+
+.loading{
+    width: 60% !important;
+    height: 60vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    .nav-head {
+        padding: 0 10rem !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .nav-head {
+        padding: 0 .8rem !important;
+    }
+}
+
+@media (max-width: 925px) {
+    html{
+        font-size: 55% !important;
+    }
+
+    .navbar-section {
+        background-color: rgb(131, 131, 131) !important;
+        padding: .6rem 0 !important;
+        position: absolute !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 10 !important;
+        text-align: center !important;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0) !important;
+        transition: clip-path .2s linear !important;
+        z-index: 10 !important;
+    }
+
+    .search-section {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        background-color: rgba(144, 144, 144, .9) !important;
+        z-index: 100 !important;
+        padding: 1.5rem !important;
+        display: none;
+    }
+
+    .search-section .cancel-circle {
+        float: right !important;
+        font-size: 5.5rem !important;
+        padding: .7rem !important;
+        background-color: rgb(193, 193, 193) !important;
+        cursor: pointer !important;
+        border-radius: 5px !important;
+        display: block !important;
+    }
+
+    .search-section .search-section-container {
+        width: 100% !important;
+        height: 80% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .search-section .search-section-container form input{
+        width: 85% !important;
+    }
+
+    .header-section .menu {
+        display: block !important;
+    }
+
+    .header-section .search-icon {
+        display: block !important;
+    }
+
+    .navbar-section.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+    }
+
+    .navbar-section li a {
+        display: block !important;
+        text-align: center !important;
+        padding: .6rem 0 !important;
+        color: white !important;
+    }
+
+    .navbar-section .line {
+        display: none !important;
+    }
+
+    .header-section .menu {
+        display: block !important;
+    }
+
+    .news-section{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .navbar-section li a{
+        margin-bottom: .7rem !important;
+    }
+
+    .top-headlines{
+        width: 100% !important;
+        padding: 0 15rem !important;
+    }
+
+    .random-news{
+        width: 100% !important;
+        margin-top: -2rem !important;
+    }
+
+    .random-news h1{
+        margin-bottom: 2rem !important;
+        font-size: 3rem !important;
+    }
+
+    .heading{
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 770px) {
+    .top-headlines{
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 51% !important;
+    }
+}

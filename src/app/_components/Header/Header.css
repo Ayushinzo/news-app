@@ -1,0 +1,36 @@
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .8rem;
+}
+
+.header-section h1{
+    font-size: 3.5rem;
+    color: rgb(246, 97, 97);
+}
+
+.header-section a{
+    text-decoration: none;
+}
+
+.header-hr{
+    height: 1px;
+    background-color: gray;
+    margin-top: .6rem;
+}
+
+.header-section .menu{
+    cursor: pointer;
+    font-size: 4rem;
+    padding: .5rem;
+    background-color: rgb(162, 162, 162);
+    display: none;
+}
+
+.header-section .search-icon{
+    font-size: 4rem;
+    padding: .3rem;
+    background-color: gray;
+    display: none;
+}
